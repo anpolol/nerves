@@ -72,7 +72,7 @@ w2= []
 for i in range(amount-1):
     w1.append(u1[i+int(tau/dt)])
     w2.append(u2[i + int(tau / dt)])
-ax.plot(j, w1, color="blue", label="u1(x)")      # функция y1(x), синий, надпись y(x)
+#ax.plot(j, w1, color="blue", label="u1(x)")      # функция y1(x), синий, надпись y(x)
 ax.plot(j, w2, color="orange", label="u2(x)")      # функция y2(x), красный, надпись y'(x)
 
 plt.show()                                      # показать рисунок
